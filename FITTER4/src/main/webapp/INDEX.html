@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style >
+	 .menubar{                 
+	 /* background-color: #0000cc;*/
+	  height: 60px;                 
+	  font-size: 14px;                 
+	  font-family: Tahoma;                 
+	  margin: auto;                 	  
+	}             
+	.menubar ul{                 
+	  list-style-type:none;                 
+	  padding: 0px;          
+	}    
+	.menubar ul li {     
+	  display: inline;     
+	  width: 180px;     
+	  float: left;     
+	  height: 40px;                 
+	  text-align: center;             
+	}             
+	.menubar ul li a{                 
+	  line-height: 40px;                 
+	  text-decoration: none;
+	  color: black;             
+	}             
+	.menubar ul li:hover{ 
+	  background-color: #f3f3f3;                 
+	  text-decoration: underline;             
+	}   
+	a{
+		border: 1px solid blue;
+		display:block;
+		border-radius: 30px;
+	 }
+</style>
+</head>
+<body style="background-color: #f3f3f3	">
+
+	<nav>
+		<div class="menubar">
+		<ul >
+			<li><img src="image/logo.png"
+								width="180" height="40" alt="Menu Close Button" /></li>
+			<li>Coaching</li>
+			<li>Explore</li>
+			<li>Corporate</li>
+			<li>Became a coach</li>	
+			<li>Transformation Challenge</li>	
+			<li  ><a href="signin.html" target="myframe">Login</a></li>		
+		</ul>
+		</div>
+	</nav>
+	<section>
+		<iframe name="myframe" width="100%" height="500px" src="display.html" style="background-color: #f3f3f3" frameborder></iframe>
+	</section>
+
+</body>
+</html>
